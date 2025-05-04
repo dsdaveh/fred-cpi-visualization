@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "locale": "en_US.UTF-8",
+    "platform": "python-3.12",
+    "metadata": {
+        "appmode": "python-streamlit",
+        "entrypoint": "app",
+        "healthcheck": {
+            "type": "startup",
+            "interval_seconds": 5,
+            "timeout_seconds": 30,
+            "grace_period_seconds": 30
+        }
+    }
+} 

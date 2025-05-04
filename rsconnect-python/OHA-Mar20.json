@@ -1,0 +1,22 @@
+{
+    "https://connect-oha.acuna.cloud/": {
+        "server_url": "https://connect-oha.acuna.cloud/",
+        "filename": "/Users/davidhurst/Documents/oha-session3/OHA-Mar20",
+        "app_url": "https://connect-oha.acuna.cloud/content/20920028-2421-4fe8-b45a-e9b9c52e00de/",
+        "app_id": "51",
+        "app_guid": "20920028-2421-4fe8-b45a-e9b9c52e00de",
+        "title": "OHA-Mar20",
+        "app_mode": "python-streamlit",
+        "app_store_version": 1
+    },
+    "https://connect.procogia.com/": {
+        "server_url": "https://connect.procogia.com/",
+        "filename": "/Users/davidhurst/Documents/oha-session3/OHA-Mar20",
+        "app_url": "https://connect.procogia.com:443/content/17f35914-cf37-468f-8702-da47a5755e4c/",
+        "app_id": "17f35914-cf37-468f-8702-da47a5755e4c",
+        "app_guid": "17f35914-cf37-468f-8702-da47a5755e4c",
+        "title": "OHA-Mar20",
+        "app_mode": "python-streamlit",
+        "app_store_version": 1
+    }
+}

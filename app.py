@@ -102,17 +102,23 @@ def create_plot(df_dict, view_type):
     if view_type == 'Both':
         # Update layout for dual y-axes
         fig.update_layout(
+            yaxis=dict(
+                title='Index Value'
+            ),
             yaxis2=dict(
                 overlaying='y',
                 side='right',
                 title='Year-over-Year Change (%)'
             )
         )
+    else:
+        fig.update_layout(
+            yaxis_title='Index Value' if view_type == 'Index Values' else 'Year-over-Year Change (%)'
+        )
     
     fig.update_layout(
         title='CPI Data',
         xaxis_title='Date',
-        yaxis_title='Index' if view_type == 'Index Values' else 'Year-over-Year Change (%)',
         hovermode='x unified',
         height=600
     )
